@@ -1,15 +1,15 @@
-module SpreeMultiCurrency
+module SolidusMultiCurrency
   module Generators
     class InstallGenerator < Rails::Generators::Base
       class_option :auto_run_migrations, type: :boolean, default: false
 
       def add_javascripts
-        append_file 'vendor/assets/javascripts/spree/frontend/all.js', "//= require spree/frontend/spree_multi_currency\n"
-        append_file 'vendor/assets/javascripts/spree/backend/all.js', "//= require spree/backend/spree_multi_currency\n"
+        append_file 'vendor/assets/javascripts/spree/frontend/all.js', "//= require spree/frontend/solidus_multi_currency\n"
+        append_file 'vendor/assets/javascripts/spree/backend/all.js', "//= require spree/backend/solidus_multi_currency\n"
       end
 
       def add_migrations
-        run 'bundle exec rake railties:install:migrations FROM=spree_multi_currency'
+        run 'bundle exec rake railties:install:migrations FROM=solidus_multi_currency'
       end
 
       def run_migrations

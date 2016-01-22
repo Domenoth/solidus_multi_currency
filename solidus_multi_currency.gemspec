@@ -2,13 +2,13 @@
 lib = File.expand_path('../lib/', __FILE__)
 $LOAD_PATH.unshift lib unless $LOAD_PATH.include?(lib)
 
-require 'spree_multi_currency/version'
+require 'solidus_multi_currency/version'
 
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
-  s.name        = 'spree_multi_currency'
-  s.version     = SpreeMultiCurrency.version
-  s.summary     = 'Provide currency customization for Spree Commerce.'
+  s.name        = 'solidus_multi_currency'
+  s.version     = SolidusMultiCurrency.version
+  s.summary     = 'Provide currency customization for Solidus Commerce.'
   s.description = s.summary
   s.required_ruby_version = '>= 2.1.0'
 
@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_runtime_dependency 'spree_backend', '~> 3.1.0.beta'
+  s.add_runtime_dependency 'solidus_backend'
 
   s.add_development_dependency 'capybara', '~> 2.4.4'
   s.add_development_dependency 'poltergeist', '~> 1.6.0'

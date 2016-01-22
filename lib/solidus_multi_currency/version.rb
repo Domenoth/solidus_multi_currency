@@ -1,4 +1,4 @@
-module SpreeMultiCurrency
+module SolidusMultiCurrency
   module_function
 
   # Returns the version of the currently loaded SpreeMultiCurrency as a
@@ -8,10 +8,10 @@ module SpreeMultiCurrency
   end
 
   module VERSION
-    MAJOR = 3
-    MINOR = 0
+    MAJOR = 1
+    MINOR = 1
     TINY  = 0
-    PRE   = 'beta'
+    PRE   = 'beta0'
 
     STRING = [MAJOR, MINOR, TINY, PRE].compact.join('.')
   end
