@@ -14,7 +14,7 @@ This provides 3 preferences:
 
 Add to your `Gemfile`
 ```ruby
-gem 'solidus_multi_currency', github: 'Domenoth/solidus_multi_currency', branch: 'master'
+gem 'solidus_multi_currency', github: 'Domenoth/solidus_multi_currency', branch: 'solidus-1-1-stable'
 ```
 
 Run
