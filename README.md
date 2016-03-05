@@ -1,9 +1,6 @@
-# Spree Multi-Currency
+# Solidus Multi-Currency
 
-[![Build Status](https://travis-ci.org/spree-contrib/spree_multi_currency.svg?branch=master)](https://travis-ci.org/spree-contrib/spree_multi_currency)
-[![Code Climate](https://codeclimate.com/github/spree-contrib/spree_multi_currency/badges/gpa.svg)](https://codeclimate.com/github/spree-contrib/spree_multi_currency)
-
-Provides UI to allow configuring multiple currencies in Spree.
+Provides UI to allow configuring multiple currencies in Solidus.
 
 This provides 3 preferences:
 
@@ -17,12 +14,12 @@ This provides 3 preferences:
 
 Add to your `Gemfile`
 ```ruby
-gem 'spree_multi_currency', github: 'spree-contrib/spree_multi_currency', branch: 'master'
+gem 'solidus_multi_currency', github: 'Domenoth/solidus_multi_currency', branch: 'master'
 ```
 
 Run
 ```
-bundle && bundle exec rails g spree_multi_currency:install
+bundle && bundle exec rails g solidus_multi_currency:install
 ```
 
 ---
@@ -37,8 +34,8 @@ See corresponding [guidelines][1]
 
 Copyright (c) 2007-2015 [Gregor MacDougall][5], [Spree Commerce][2], and other [contributors][3], released under the [New BSD License][4]
 
-[1]: https://github.com/spree-contrib/spree_multi_currency/blob/master/CONTRIBUTING.md
+[1]: https://github.com/Domenoth/solidus_multi_currency/blob/master/CONTRIBUTING.md
 [2]: https://github.com/spree
-[3]: https://github.com/spree-contrib/spree_multi_currency/contributors
-[4]: https://github.com/spree-contrib/spree_multi_currency/blob/master/LICENSE.md
+[3]: https://github.com/Domenoth/solidus_multi_currency/contributors
+[4]: https://github.com/Domenoth/solidus_multi_currency/blob/master/LICENSE.md
 [5]: https://github.com/freerunningtech
